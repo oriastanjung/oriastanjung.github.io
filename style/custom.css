@@ -1,0 +1,518 @@
+body{
+    background-color: #22282b;
+}
+
+.headerNav{
+    margin-bottom: 8rem;
+    background-color: #374044;
+}
+a.navbar-brand , a.nav-link{
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+}
+a.navbar-brand{
+    color: #EEEEEE;
+    font-weight: 900;
+    font-size: 26px;
+    border-bottom: 1px solid #f55617;
+}
+a.nav-link{
+    color: #EEEEEE !important;
+}
+a.navbar-brand:hover{
+    transition: all 0.8s;
+    font-size: 26.4px;
+    color: #ffffff;
+}
+a.nav-link:hover{
+    color: #f55617 !important;
+}
+.opening h1 span{
+    font-weight: 400;
+    color: #f55617;
+}
+.opening{
+    margin-top: 12rem;
+}
+.opening h1{
+    font-family: "Raleway",sans-serif;
+    font-size: 52px;
+    font-weight: 200;
+    color: #EEEEEE;
+}
+
+
+.about-title{
+    margin-top: 24rem;
+    margin-bottom: 10rem;
+    object-fit: cover;
+    object-position: center;
+   
+}
+.sub-titles{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #EEEEEE;
+    font-family: "Atkinson Hyperlegible",sans-serif;
+    
+}
+
+.sub-titles-caption{
+    margin-top: 2rem;
+    font-size: 40px;
+    font-family: "Raleway",sans-serif;
+    color: #EEEEEE;
+    font-weight: 100;
+
+}
+.img-profile img{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 70%;
+   
+}
+
+.progress{
+    border-radius: 0;
+    height: 1.75rem;
+    margin-bottom: 20px;
+}
+.warna-title-bar{
+    background-color: #b84213;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Raleway",sans-serif;
+}
+.warna-bar{
+    background-color: #f55617;
+}
+
+.about-info-desc{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.about-info-desc h2, .about-info-desc p{
+    color: #EEEEEE;
+    font-family: "Raleway",sans-serif;
+}
+
+.about-info-desc h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+.about-info-desc p{
+    font-family: 100;
+}
+
+
+
+.project-title{
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.project-item{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.project-desc{
+    margin-top: 2rem;
+}
+.project-desc h2 , .project-desc p{
+    color: #EEEEEE;
+    font-family: "Raleway",sans-serif;
+    text-align: left;
+}
+.project-desc h2{
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f55617;
+}
+.project-desc p{
+    font-weight: 200;
+    font-size: 20px;
+}
+.project-desc p a{
+    color: #EEEEEE;
+}
+.project-desc p a:hover{
+    transition: all 0.5s;
+    color: #f55617;
+}
+.project-row{
+    margin-bottom: 2rem;
+}
+
+
+
+.carousel-dark{
+    color: black;
+}
+
+.caption-title{
+    font-family: "Raleway",sans-serif;
+    color: #22282b;
+}
+
+.certificate-title{
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+
+
+
+
+.contact-title{
+    margin-top: 24rem;
+}
+
+
+.profile-contact{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    background-color: #343d42;
+    border-radius: 18px;
+    width: 40%;
+}
+
+.profile-contact img{
+    border-radius: 20%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+}
+.contact-info h2, .contact-info p{
+    font-family: "Raleway",sans-serif;
+    color: #EEEEEE;
+}
+
+.contact-info h2{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 35px;
+}
+.contact-info p{
+    font-weight: 100;
+}
+.contact-icon{
+    display: inline;
+}
+.contact-icon a{
+    text-decoration: none;
+}
+.contact-icon img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.footer{
+    box-shadow: 0px -6px 9px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -6px 9px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -6px 9px -2px rgba(0,0,0,0.75);
+    padding: 2rem;
+    background-color: #374044;
+}
+
+.contact-icon-footer{
+    display: inline;
+    margin: 0.6rem;
+    
+}
+.contact-icon-footer a{
+    text-decoration: none;
+}
+.contact-icon-footer img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.footer-info{
+    border-left: 2px solid #EEEEEE;
+    font-family: "Raleway",sans-serif;
+    color: #EEEEEE;
+    font-size: 24px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .navbar-brand{
+        font-size: 26px !important;
+    }
+    .nav-item a{
+        font-size: 25px;
+    }
+    .headerNav{
+        margin-bottom: 10rem;
+    }
+    .opening{
+        margin-top: 1rem;
+    }
+    .opening h1{
+        font-size: 38px;
+    }
+    .sub-titles{
+        margin-top: 1.5rem;
+        font-size: 46px;
+    }
+    .about-title{
+        border-top: 1px solid white;
+        margin-bottom: 3rem;
+    }
+    .about-info-desc{
+        margin-top: 1.3rem;
+        margin-bottom: 2.5rem;
+    }
+    .about-info-desc h2{
+        font-size: 40px;
+    }
+    .about-info-desc p{
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    .warna-title-bar{
+        font-size: 14px;
+    }
+
+
+
+    .project-title{
+        border-top: 1px solid white;
+        margin-top: 4rem;
+        margin-bottom: 3.7rem;
+    }
+
+    .sub-titles-caption{
+        font-size: 35px;
+    }
+    .project-item{
+        width: 280px;
+        height: 40%;
+    }
+
+    .project-desc h2{
+        font-size: 30px;
+    }
+    .project-desc p{
+        font-size: 28px;
+    }
+
+
+    .certificate-title{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        border-top: 1px solid white;
+    }
+
+
+    .contact-title{
+        border-top: 1px solid white;
+        margin-top: 10rem;
+    }
+
+    .profile-contact{
+        width: 280px;
+    }
+    .profile-contact img{
+        height: 300px;
+    }
+    .contact-info h2{
+        font-size: 36px;
+    }
+    .contact-info p{
+        font-size: 25px;
+    }
+    .contact-icon img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-icon-footer img{
+        width: 50px;
+        height: 50px;
+    }
+    .footer-info{
+        border: 0;
+        margin-top: 1rem;
+        font-size: 28px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand{
+        font-size: 32px !important;
+    }
+    .nav-item{
+        font-size: 30px;
+    }
+    .opening h1{
+        font-size: 38px;
+    }
+    .about-title{
+        
+        margin-bottom: 2.7rem;
+    }
+    .sub-titles{
+        padding-top: 1.5rem;
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .img-profile img{
+        width: 260px;
+    }
+    .progress{
+        height: 24px;
+    }
+    .warna-title-bar{
+        font-size: 12px;
+        width: 45% !important;
+    }
+    .about-info-desc{
+        margin-top: 1.3rem;
+    }
+    .about-info-desc h2{
+        font-size: 26px;
+    }
+    .about-info-desc p{
+        text-align: center;
+        font-size: 19px;
+        font-weight: 100;
+    }
+
+    .project-title{
+        margin-bottom: 2.5rem;
+    }
+    .sub-titles-caption{
+        margin-top: 1rem;
+        font-size: 34px;
+    }
+    .project-item{
+        width: 480px;
+        height: 300px;
+    }
+    .project-desc{
+        margin-top: 0.6rem;
+    }
+    .project-desc h2{
+        font-size: 32px;
+    }
+    .project-desc p{
+        font-size: 25px;
+    }
+
+    .certificate-title{
+        margin-bottom: 4rem;
+    }
+
+    .contact-title{
+        margin-top: 18rem;
+    }
+    .profile-contact{
+        width: 380px;
+    }
+    .profile-contact img{
+       height: 400px;
+    }
+    .contact-icon img{
+        width: 27px;
+        height: 27px;
+    }
+
+    .contact-icon-footer img{
+        width: 35px;
+        height: 35px;
+        margin: 0;
+    }
+    .footer-info {
+        margin: 0;
+        border: 0;
+        font-size: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .sub-titles{
+        border-top: 1px solid #EEEEEE;
+        padding-top: 1rem;
+    }
+
+    .img-profile img{
+        width: 310px;
+    }
+
+    .warna-title-bar {
+        font-size: 16px;
+        width: 35% !important;
+    }
+
+    .about-info-desc{
+        margin-top: 1.4rem;
+    }
+    .about-info-desc h2{
+        font-size: 38px;
+    }
+    .about-info-desc p{
+        font-size: 19px;
+        font-weight: 100;
+    }
+
+    .project-title{
+        margin-bottom: 4rem;
+    }
+    .project-desc h2{
+        font-size: 30px;
+    }
+    .project-desc p{
+        font-size: 26px;
+    }
+
+    .certificate-title{
+        margin-bottom: 3.7rem;
+    }
+
+
+    .profile-contact{
+        width: 400px;
+    }
+    .profile-contact img{
+        height: 370px;
+    }
+    .contact-info h2{
+        font-size: 45px;
+    }
+    .contact-info p{
+        font-size: 20px;
+    }
+    .contact-icon img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact-icon-footer img{
+        width: 25px;
+        height: 25px;
+    }
+    .footer-info{
+        border: 0;
+        font-size: 20px;
+    }
+}
